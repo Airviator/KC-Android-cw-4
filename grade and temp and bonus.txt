@@ -1,0 +1,31 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        int num1 = 92 ;
+        int num2 = 90 ;
+        
+        int num3 = num1 + num2;
+        
+        System.out.println(num3);
+    }
+    
+    public static void temperature(int num1){
+  
+        num1 = 24;
+		
+		if (num1 >= 23){
+		    System.out.println("oof 7ar");}
+		
+		else if (num1 < 23){
+		    System.out.println("Jawii");} 
+
+}
+    
+    public static void forloop(int num1){
+        
+        for (num1 = 1 ; num1 < 11 ; num1++)
+        
+        System.out.println(num1);
+        
+    }
+    
+}
